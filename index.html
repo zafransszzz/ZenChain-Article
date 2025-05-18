@@ -6,40 +6,61 @@
   <title>ZenChain: Bridging Bitcoin and Ethereum for a Decentralized Future</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       max-width: 900px;
-      margin: auto;
+      margin: 40px auto;
       padding: 20px;
-      line-height: 1.6;
-      background: #f9f9f9;
-    }
-    h1, h2 {
+      background: #f4f6f8;
       color: #2c3e50;
+      line-height: 1.7;
+    }
+    h1, h2, h3 {
+      color: #1a237e;
+      margin-top: 1.6em;
+      margin-bottom: 0.4em;
+    }
+    a {
+      color: #3949ab;
+      text-decoration: none;
+      border-bottom: 1.5px solid #90caf9;
+      transition: color 0.3s, border-bottom-color 0.3s;
+    }
+    a:hover {
+      color: #1a237e;
+      border-bottom-color: #1a237e;
     }
     img {
       max-width: 100%;
-      height: auto;
-      margin: 20px 0;
-      border-radius: 8px;
+      border-radius: 12px;
+      margin: 20px 0 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      cursor: pointer;
     }
-    a {
-      color: #3498db;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
+    img:hover {
+      transform: scale(1.03);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.15);
     }
     .caption {
       font-size: 0.9em;
-      color: #555;
-      margin-top: -15px;
-      margin-bottom: 20px;
+      color: #616161;
+      margin-bottom: 30px;
+      font-style: italic;
+      text-align: center;
+    }
+    p {
+      font-size: 1.05em;
     }
     .container {
-      background: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      background: #ffffff;
+      padding: 30px 40px;
+      border-radius: 14px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.07);
+    }
+    .link-block {
+      margin-top: 1em;
+      font-size: 0.95em;
+      color: #555;
     }
   </style>
 </head>
@@ -47,8 +68,10 @@
   <div class="container">
     <h1>ZenChain: Bridging Bitcoin and Ethereum for a Decentralized Future</h1>
 
-    <img src="assets/zenchain-key-player.jpeg" alt="ZenChain key player" />
-    <div class="caption">Image: Why ZenChain Is a Key Player in the New Blockchain Era</div>
+    <a href="https://images.openai.com/thumbnails/e53254a9d5dd0c1b33c915484f9d9ab0.jpeg" target="_blank" rel="noopener noreferrer">
+      <img src="https://images.openai.com/thumbnails/e53254a9d5dd0c1b33c915484f9d9ab0.jpeg" alt="ZenChain key player" />
+    </a>
+    <div class="caption">Why ZenChain Is a Key Player in the New Blockchain Era</div>
 
     <p>
       <strong>ZenChain</strong> is a pioneering Layer 1 blockchain platform that combines the security of Bitcoin with the programmability of Ethereum, aiming to create a seamless and decentralized cross-chain ecosystem. By integrating Bitcoin's robust security features with Ethereum's smart contract capabilities, ZenChain offers a unique solution for developers and users seeking interoperability and scalability in the blockchain space.
@@ -58,56 +81,71 @@
     <h2>Key Features and Technologies</h2>
 
     <h3>1. Cross-Chain Interoperability Module (CCIM)</h3>
-    <img src="assets/ccim-architecture.png" alt="Cross Chain Interoperability Module" />
-    <div class="caption">Image: Cross-Chain Interoperability Module (CCIM) architecture</div>
+    <a href="https://images.openai.com/thumbnails/60165405d887a2b9cdc1bc0816b29b75.png" target="_blank" rel="noopener noreferrer">
+      <img src="https://images.openai.com/thumbnails/60165405d887a2b9cdc1bc0816b29b75.png" alt="Cross Chain Interoperability Module" />
+    </a>
+    <div class="caption">Cross-Chain Interoperability Module (CCIM) architecture</div>
     <p>
-      At the heart of ZenChain's architecture is the Cross-Chain Interoperability Module (CCIM), a chain-agnostic framework that facilitates secure and efficient asset transfers across various blockchain networks. The CCIM enables ZenChain to monitor and verify transactions on external blockchains, ensuring trust-minimized interactions and broadening the scope of decentralized applications (dApps). Documentation is available at 
+      At the heart of ZenChain's architecture is the Cross-Chain Interoperability Module (CCIM), a chain-agnostic framework that facilitates secure and efficient asset transfers across various blockchain networks. The CCIM enables ZenChain to monitor and verify transactions on external blockchains, ensuring trust-minimized interactions and broadening the scope of decentralized applications (dApps).  
+      Documentation is available at  
       <a href="https://docs.zenchain.io/docs/cross-chain-interoperability/cross-chain-interoperability-module" target="_blank" rel="noopener noreferrer">docs.zenchain.io</a>.
     </p>
 
     <h3>2. ZIP-20 Token Standard</h3>
-    <img src="assets/zip20-token-standard.png" alt="ZIP-20 Token Standard" />
-    <div class="caption">Image: ZIP-20 Token Standard enables cross-chain assets</div>
+    <a href="https://images.openai.com/thumbnails/178772328d911599307c0c60b76c8ee5.jpeg" target="_blank" rel="noopener noreferrer">
+      <img src="https://images.openai.com/thumbnails/178772328d911599307c0c60b76c8ee5.jpeg" alt="ZIP-20 Token Standard" />
+    </a>
+    <div class="caption">ZIP-20 Token Standard enables cross-chain assets</div>
     <p>
-      ZenChain introduces the ZIP-20 standard, an advanced cross-chain interoperability technology designed to facilitate seamless asset transfers between ZenChain and any external blockchain supported by the CCIM. Inspired by the widely-used ERC-20 standard on Ethereum, ZIP-20 extends its capabilities to support a broader range of assets, enabling secure and efficient bridging and asset management across multiple blockchain networks. More info at 
+      ZenChain introduces the ZIP-20 standard, an advanced cross-chain interoperability technology designed to facilitate seamless asset transfers between ZenChain and any external blockchain supported by the CCIM. Inspired by the widely-used ERC-20 standard on Ethereum, ZIP-20 extends its capabilities to support a broader range of assets, enabling secure and efficient bridging and asset management across multiple blockchain networks.  
+      More info at  
       <a href="https://docs.zenchain.io/docs/cross-chain-interoperability/zip-20-standard" target="_blank" rel="noopener noreferrer">docs.zenchain.io</a>.
     </p>
 
     <h3>3. Cross-Liquidity Consensus Mechanism (CLCM)</h3>
-    <img src="assets/clcm-consensus.png" alt="Cross-Liquidity Consensus Mechanism" />
-    <div class="caption">Image: Cross-Liquidity Consensus Mechanism ensuring security</div>
+    <a href="https://images.openai.com/thumbnails/a0a872a9ea078e002c5e22e1da5895de.jpeg" target="_blank" rel="noopener noreferrer">
+      <img src="https://images.openai.com/thumbnails/a0a872a9ea078e002c5e22e1da5895de.jpeg" alt="Cross-Liquidity Consensus Mechanism" />
+    </a>
+    <div class="caption">Cross-Liquidity Consensus Mechanism ensuring security</div>
     <p>
-      ZenChain employs the Cross-Liquidity Consensus Mechanism (CLCM), a state-of-the-art consensus protocol that ensures the security and crypto-economic integrity of every transaction. Validators oversee the process, securing the network and maintaining decentralized control. Users can also stake their ZTC tokens to nominate validators and earn rewards. Learn more at 
+      ZenChain employs the Cross-Liquidity Consensus Mechanism (CLCM), a state-of-the-art consensus protocol that ensures the security and crypto-economic integrity of every transaction. Validators oversee the process, securing the network and maintaining decentralized control. Users can also stake their ZTC tokens to nominate validators and earn rewards.  
+      Learn more at  
       <a href="https://docs.zenchain.io/docs/cross-liquidity-mechanism/nominated-proof-of-stake" target="_blank" rel="noopener noreferrer">docs.zenchain.io</a>.
     </p>
 
     <h3>4. AI-Powered Security</h3>
-    <img src="assets/ai-security.png" alt="AI Powered Security" />
-    <div class="caption">Image: AI-powered security for real-time threat detection</div>
+    <a href="https://images.openai.com/thumbnails/placeholder-ai-security.jpeg" target="_blank" rel="noopener noreferrer">
+      <img src="https://images.openai.com/thumbnails/placeholder-ai-security.jpeg" alt="AI Powered Security" />
+    </a>
+    <div class="caption">AI-powered security for real-time threat detection</div>
     <p>
-      Security is a top priority for ZenChain. Advanced AI-powered security measures, including integration with machine learning (ML), provide real-time and early threat detection and mitigation. This ensures a secure and resilient environment for all users, guarding against potential risks. Visit 
+      Security is a top priority for ZenChain. Advanced AI-powered security measures, including integration with machine learning (ML), provide real-time and early threat detection and mitigation. This ensures a secure and resilient environment for all users, guarding against potential risks. Visit  
       <a href="https://docs.zenchain.io/docs/intro" target="_blank" rel="noopener noreferrer">docs.zenchain.io</a> for details.
     </p>
 
     <h2>Developer and User Ecosystem</h2>
     <p>
-      ZenChain offers a developer-friendly environment with full Ethereum Virtual Machine (EVM) compatibility, allowing developers to deploy smart contracts using familiar tools like MetaMask and Solidity. This compatibility ensures a smooth transition for Ethereum developers seeking to leverage ZenChain's enhanced security and cross-chain capabilities.
-      Documentation: <a href="https://docs.zenchain.io/docs/build-on-zenchain/why-zenchain" target="_blank" rel="noopener noreferrer">docs.zenchain.io</a>
+      ZenChain offers a developer-friendly environment with full Ethereum Virtual Machine (EVM) compatibility, allowing developers to deploy smart contracts using familiar tools like MetaMask and Solidity. This compatibility ensures a smooth transition for Ethereum developers seeking to leverage ZenChain's enhanced security and cross-chain capabilities.  
+      Documentation:  
+      <a href="https://docs.zenchain.io/docs/build-on-zenchain/why-zenchain" target="_blank" rel="noopener noreferrer">docs.zenchain.io</a>
     </p>
     <p>
-      For users, ZenChain provides a low-cost and high-speed platform with transaction fees averaging less than $0.01 and block times around 6 seconds. This efficiency makes ZenChain an attractive option for decentralized finance (DeFi) applications and other blockchain-based services. More at 
+      For users, ZenChain provides a low-cost and high-speed platform with transaction fees averaging less than $0.01 and block times around 6 seconds. This efficiency makes ZenChain an attractive option for decentralized finance (DeFi) applications and other blockchain-based services.  
+      More at  
       <a href="https://www.zenchain.io" target="_blank" rel="noopener noreferrer">zenchain.io</a>.
     </p>
 
     <h2>ZenQuest: Incentivizing Community Engagement</h2>
     <p>
-      ZenQuest is ZenChain's innovative incentives platform where every quest is an opportunity to earn rewards and level up your experience. By completing engaging challenges, users accumulate experience points and climb the leaderboard, unlocking exclusive rewards along the way. See more at 
+      ZenQuest is ZenChain's innovative incentives platform where every quest is an opportunity to earn rewards and level up your experience. By completing engaging challenges, users accumulate experience points and climb the leaderboard, unlocking exclusive rewards along the way.  
+      See more at  
       <a href="https://docs.zenchain.io/docs/zenquest/participate-in-zenquest" target="_blank" rel="noopener noreferrer">docs.zenchain.io</a>.
     </p>
 
     <h2>Strategic Partnerships</h2>
     <p>
-      ZenChain has partnered with Carbon Browser to expand access to crypto and Web3 services. This collaboration integrates ZenChain with Carbon Wallet, allowing users to seamlessly interact with ZenChain using $ZCX directly within the browser. Such partnerships enhance the accessibility and usability of ZenChain's ecosystem. More at 
+      ZenChain has partnered with Carbon Browser to expand access to crypto and Web3 services. This collaboration integrates ZenChain with Carbon Wallet, allowing users to seamlessly interact with ZenChain using $ZCX directly within the browser. Such partnerships enhance the accessibility and usability of ZenChain's ecosystem.  
+      More at  
       <a href="https://blockchainreporter.net/zenchain-partners-with-carbon-browser-to-expand-access-to-crypto-and-web3" target="_blank" rel="noopener noreferrer">blockchainreporter.net</a>.
     </p>
 
